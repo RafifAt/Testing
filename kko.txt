@@ -1,0 +1,15 @@
+String [] Cottage ={"Duku","Jeruk","Alpukat","Jambu Air","Durian","Melon",};
+        int [] harga ={1025000,1025000,695000,695000,715000,715000,575000,575000,575000};
+        double [] keterangan = {"2", "Sangat Baik", "Baik", "Cukup", "Baik"};
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("No : ");
+        int pilihan = input.nextInt();
+
+        if(pilihan <=4 ) {
+            System.out.println("Nama : " + nama[pilihan]);
+            System.out.println("Nilai : " + nilai[pilihan]);
+            System.out.println("Nilai : " + keterangan[pilihan]);
+        } else {
+            System.out.println("data tidak ditemukan");
+        }
